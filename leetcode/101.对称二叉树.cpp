@@ -34,7 +34,8 @@ public:
             return true;
         return isSymmetricTreeForward(root->left, root->right);
     }
-    //TODO iters
+
+    
     bool isSymmetricTreeForward(TreeNode* p, TreeNode* q)
     {
         queue<TreeNode*> que;
